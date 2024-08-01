@@ -14,6 +14,7 @@
     --accent-purple: hsl(270, 70%, 35%);
     --accent-pink: hsl(342, 79%, 52%);
     --accent-orange: hsl(22, 87%, 49%);
+    --border-primary: hsl(0, 0%, 85%);
 }
 
 body {
@@ -39,6 +40,10 @@ img {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+}
+
+#page hr {
+  border: 1px solid var(--border-primary);
 }
 
 header h1 {
@@ -80,6 +85,7 @@ main h2 {
 
 .sight h3 {
     margin-top: 2rem;
+    margin-left: 1rem;
 
     font-size: 2.8rem;
     color: var(--text-primary);
@@ -97,6 +103,8 @@ main h2 {
 }
 
 .sight ul li {
+    margin-left: 2.4rem;
+
     color: var(--accent-blue);
 }
 
